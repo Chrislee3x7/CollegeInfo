@@ -39,3 +39,12 @@ input {
     top: 40%;
     left: 20%;
 }
+
+#rcorners1 {
+    margin: 20px;
+    border-radius: 25px;
+    background: #E9C893;
+    padding: 20px; 
+    width: 90%;
+    height: 50%;  
+}
