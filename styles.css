@@ -1,18 +1,26 @@
 :root {
     --text-color: #3CC47C;
+    --background-color: #E9C893;
+    --border-color: #1E392A;
+    --main-background: #fff3d4;
+}
+body {
+    background-color: var(--main-background);
 }
 
 .topnav {
     overflow: hidden;
-    background-color: #E9C893;
-    color: #3CC47C;
+    background-color: var(--background-color);
 }
 
 .topnav a {
     display: flex;
-    padding: 14px 16px;
+    padding: 10px;
+    align-items:center;
     color: var(--text-color);
     font-size: 17px;
+    font-weight: 900;
+    float: left;
 }
 
 a {
@@ -21,4 +29,13 @@ a {
 
 input {
     display: flex;
+    flex-direction: row;
+    margin: auto;
+    border: 4px solid var(--border-color);
+    width: 60%;
+    padding: 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    left: 20%;
 }
