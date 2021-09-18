@@ -36,19 +36,20 @@ input {
     display: flex;
     flex-direction: row;
     margin: auto;
+    font-size: 24px;
     border: 4px solid var(--border-color);
     width: 60%;
-    padding: 10px;
+    padding: 1rem;
     cursor: pointer;
     position: relative;
     top: 3rem;
-    left: 0.5rem;
+    left: 0rem;
 }
 
 .sub_search {
     top: 1rem;
     left: 0rem;
-    margin: 0;
+    margin: 10px;
 }
 
 #site-card {
@@ -60,7 +61,7 @@ input {
     padding-right: 2rem; 
     padding-top: 1rem; 
     padding-bottom: 1rem; 
-    width: 50%;
+    width: 60%;
     height: 50%;
     color: var(--text-color);
     background: var(--background-color);
@@ -68,12 +69,12 @@ input {
 
 #university-title {
     margin: auto;
-    margin-top: 1rem;
+    margin-top: 3rem;
     padding-left: 2rem; 
     padding-right: 2rem; 
     padding-top: 1rem; 
     padding-bottom: 1rem; 
-    width: 50%;
+    width: 60%;
     height: 50%;
     color: var(--text-color);
 }
@@ -87,25 +88,4 @@ input {
 .info-text {
     position: relative;
     top: 4rem;
-}
-
-.autocomplete {
-    position: relative;
-    display: inline-block;
-}
-
-.autocomplete-items {
-    position: relative;
-    border: 1px solid;
-    z-index: 99;
-    top: 3rem;
-    left: 3.4rem;
-    width: 68.5%;
-}
-
-.autocomplete-items div {
-    padding: 10px;
-    cursor: pointer;
-    background-color: white;
-    border-bottom: 1px solid;
 }
