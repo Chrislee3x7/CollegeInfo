@@ -41,3 +41,17 @@ input {
     top: 3rem;
     left: 0.5rem;
 }
+
+#rcorners1 {
+    margin: 20px;
+    border-radius: 25px;
+    background: #E9C893;
+    padding: 20px; 
+    width: 90%;
+    height: 50%;
+}
+
+.info-text {
+    position: relative;
+    top: 4rem;
+}
