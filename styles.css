@@ -1,13 +1,14 @@
 :root {
-    --text-color: #3CC47C;
-    --background-color: #E9C893;
-    --border-color: #1E392A;
-    --main-background: #fff3d4;
+    --text-color: #0A3200;
+    --background-color: #74F2CE;
+    --border-color: #0A3200;
+    --main-background: #BFFFF1;
     --gradient-1: #fff3d4;
     --gradient-2: #fffaeb;
 }
 body {
     background-color: var(--main-background);
+    font-family: Verdana, sans-serif;
 }
 
 .topnav {
@@ -27,6 +28,7 @@ body {
 
 a {
     text-decoration: none;
+    font-family: Verdana, sans-serif;
 }
 
 input {
@@ -42,12 +44,35 @@ input {
     left: 0.5rem;
 }
 
-#rcorners1 {
-    margin: 20px;
-    border-radius: 25px;
-    background: #E9C893;
-    padding: 20px; 
-    width: 90%;
+.sub_search {
+    top: 1rem;
+    left: 0rem;
+    margin: 0;
+}
+
+#site-card {
+    margin: auto;
+    box-shadow: 5px 5px 5px lightgray;
+    margin-top: 1rem;
+    border-radius: 10px;
+    color: var(--text-color);
+    background: var(--background-color);
+    padding-left: 2rem; 
+    padding-right: 2rem; 
+    padding-top: 1rem; 
+    padding-bottom: 1rem; 
+    width: 60%;
+    height: 50%;
+}
+
+#university-title {
+    margin: auto;
+    margin-top: 1rem;
+    padding-left: 2rem; 
+    padding-right: 2rem; 
+    padding-top: 1rem; 
+    padding-bottom: 1rem; 
+    width: 60%;
     height: 50%;
 }
 
