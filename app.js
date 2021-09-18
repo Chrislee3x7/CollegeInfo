@@ -1,9 +1,10 @@
 const search = document.getElementById("search_uni");
 
 search.addEventListener("keyup", function() {
+    console.log(search.textContent);
     if (event.keyCode == 13) {
         console.log("Enter is pressed");
-        window.location.href = "college-profile.html";
+        window.location.href = "college-profile.html" + "?" + search.value;
     }
 })
 
@@ -61,8 +62,13 @@ function autocomplete(inp, arr) {
                 console.log("b became " + b.innerHTML);
 
                 b.addEventListener("click", function() {
-                    inp.value = this.getElementByTagName("input")[0].value;
-                    closeAllLists();
+                    //inp.value = this.getElementsByTagName("input")[0].value;
+                    var temp = b.innerHTML.substr(8);
+                    temp = temp.substr(0, temp.indexOf("<")) + temp.substr(temp.indexOf(">") + 1);
+                    inp.value = temp;
+                    closeAllLists(b);
+                    b.innerHTML = "<strong>" + temp + "</strong>";
+                    //a.appendChild(b);
                 });
 
                 a.appendChild(b);
@@ -78,13 +84,15 @@ function autocomplete(inp, arr) {
             a.appendChild(b);
         }
     });
-}
-
-function closeAllLists() {
-    var x = document.getElementsByClassName("autocomplete-items");
-    for (var i = 0; i < x.length; ++i) {
-        x[i].parentNode.removeChild(x[i]);
+    function closeAllLists(except_this) {
+        var x = document.getElementsByClassName("autocomplete-items");
+        for (var i = 0; i < x.length; ++i) {
+            if (x[i] == except_this) continue;
+            x[i].parentNode.removeChild(x[i]);
+        }
     }
 }
+
+
 
 autocomplete(search, universities);
