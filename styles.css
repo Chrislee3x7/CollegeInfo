@@ -14,7 +14,7 @@ body {
     overflow: hidden;
     background-color: var(--background-color);
     border-radius: 0.5rem;
-    padding: 0.5rem; 
+    padding: 1rem 1rem; 
 }
 
 .topnav a {
@@ -33,23 +33,52 @@ a {
 }
 
 input {
-    display: flex;
+    /*display: flex;
     flex-direction: row;
+    */
+    /*display: block;*/
     margin: auto;
-    font-size: 24px;
+    font-size: 20px;
     border: 4px solid var(--border-color);
+    border-radius: 10px;
     width: 60%;
     padding: 1rem;
     cursor: pointer;
     position: relative;
-    top: 3rem;
-    left: 0rem;
+    top: 2rem;
 }
 
 .sub_search {
-    top: 1rem;
-    left: 0rem;
-    margin: 10px;
+    /*padding: 10px;*/
+}
+
+.info-text {
+    position: relative;
+    top: 4rem;
+}
+
+.autocomplete {
+    position: relative;
+    display: block;
+    z-index: 2;
+
+}
+
+.autocomplete-items {
+    position: relative;
+    z-index: 2;
+    border: 1px solid;
+    top: 3rem;
+    left: 3.4rem;
+    width: 68.5%;
+}
+
+.autocomplete-items div {
+    z-index: 2;
+    padding: 10px 10px;
+    cursor: pointer;
+    background-color: white;
+    border-bottom: 1px solid;
 }
 
 #site-card {
@@ -83,9 +112,4 @@ input {
     margin: auto;
     width: 50%;
     padding: 10px;
-}
-
-.info-text {
-    position: relative;
-    top: 4rem;
 }
