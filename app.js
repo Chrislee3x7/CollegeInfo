@@ -1,14 +1,23 @@
 const search = document.getElementById("search_uni");
 
 search.addEventListener("keyup", function() {
-    console.log(search.textContent);
     if (event.keyCode == 13) {
-        console.log("Enter is pressed");
-        window.location.href = "college-profile.html";
-        //window.location.href = "college-profile.html" + "?" + search.value;
-        sessionStorage.setItem("University_name", search.value);
+        switchScreen();
     }
 })
+
+/*
+    Function that switches screen
+    Called for search.addEventListener
+        When the enter key is pressed
+    Called for b.addEventListener
+        When an item in autocomplete is clicked
+*/
+function switchScreen() {
+    window.location.href = "college-profile.html";
+    sessionStorage.setItem("University_name", search.value);
+    sessionStorage.setItem("University_list", universities);
+}
 
 // Loads universities from csv
 var universities = ["Purdue"];
@@ -27,6 +36,7 @@ function fetchData(data) {
         universities.push(row[1]);
         console.log(row[1]);
     }
+    universities.sort();
 }
 
 
@@ -34,7 +44,7 @@ function fetchData(data) {
   @parameter inp: html object arr: array to get the list from
 */
 function autocomplete(inp, arr) {
-    var curr;
+    var currentFocus;
     inp.addEventListener("input", function() {
         var a, b, i, val = this.value;
         var counter = 0;
@@ -54,15 +64,17 @@ function autocomplete(inp, arr) {
         
         // Check if there are matching elements
         for (i = 0; i < arr.length; ++i) {
-            if(arr[i].substr(0, val.length).toUpperCase() == val.toUpperCase()) {
+            var index = arr[i].toUpperCase().indexOf(val.toUpperCase());
+            if(index >= 0) {
                 counter++;
                 b = document.createElement("DIV");
-                b.innerHTML = "<strong>" + arr[i].substr(0, val.length) + "</strong>";
-                b.innerHTML += arr[i].substr(val.length);
-                
-                console.log("b was " + b.innerHTML);
-                //b.innerHTML += "<input type='hidden' value='" + arr[i] > "'>";
-                console.log("b became " + b.innerHTML);
+                b.innerHTML = arr[i].substr(0, index);
+                b.innerHTML += "<strong>" + arr[i].substr(index, val.length) + "</strong>";
+                b.innerHTML += arr[i].substr(index + val.length);
+
+                console.log("length of b is " + val.length);
+                console.log("Curr index is " + index);
+                console.log("b.innerHTML = " + b.innerHTML);
 
                 b.addEventListener("click", function() {
                     //inp.value = this.getElementsByTagName("input")[0].value;
@@ -70,8 +82,7 @@ function autocomplete(inp, arr) {
                     temp = temp.substr(0, temp.indexOf("<")) + temp.substr(temp.indexOf(">") + 1);
                     inp.value = temp;
                     closeAllLists(b);
-                    b.innerHTML = "<strong>" + temp + "</strong>";
-                    //a.appendChild(b);
+                    switchScreen();
                 });
 
                 a.appendChild(b);
@@ -94,6 +105,33 @@ function autocomplete(inp, arr) {
             x[i].parentNode.removeChild(x[i]);
         }
     }
+    /*
+    inp.addEventListener("keydown", function(e) {
+        var x = document.getElementById(this.id + "autocomplete-list");
+        if (x) x = x.getElementsByTagName("div");
+
+        if (e.keyCode == 40) {
+            currentFocus++;
+            addActive(x);
+        }
+        else if (e.keyCode == 38) {
+            currentFocus--;
+            addActive(x);
+        }
+    })
+    function addActive(x) {
+        if (!x) return false;
+        removeActive(x);
+        if (currentFocus >= x.length) currentFocus = 0;
+        if (currentFocus < 0) currentFocus = x.length - 1;
+        x[currentFocus].classList.add("autocomplete-active");
+    }
+    function removeActive(x) {
+        for (var i = 0; i < x.length; ++i) {
+            x[i].classList.remove("autocomplete-active");
+        }
+    }
+    */
 }
 
 

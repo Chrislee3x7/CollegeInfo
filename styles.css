@@ -48,10 +48,6 @@ input {
     top: 2rem;
 }
 
-.sub_search {
-    /*padding: 10px;*/
-}
-
 .info-text {
     position: relative;
     top: 4rem;
@@ -79,6 +75,14 @@ input {
     cursor: pointer;
     background-color: white;
     border-bottom: 1px solid;
+}
+
+.autocomplete-items div:hover {
+    background-color: grey;
+}
+
+.autocomplete-active {
+    background-color: grey;
 }
 
 #site-card {
@@ -112,4 +116,12 @@ input {
     margin: auto;
     width: 50%;
     padding: 10px;
+}
+
+.error {
+    position: relative;
+    top: 50px;
+    left: 15px;
+    margin: auto;
+    font-size: 20px;
 }
