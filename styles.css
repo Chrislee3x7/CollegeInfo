@@ -80,3 +80,24 @@ input {
     position: relative;
     top: 4rem;
 }
+
+.autocomplete {
+    position: relative;
+    display: inline-block;
+}
+
+.autocomplete-items {
+    position: relative;
+    border: 1px solid;
+    z-index: 99;
+    top: 3rem;
+    left: 3.4rem;
+    width: 68.5%;
+}
+
+.autocomplete-items div {
+    padding: 10px;
+    cursor: pointer;
+    background-color: white;
+    border-bottom: 1px solid;
+}
