@@ -2,8 +2,8 @@
     --text-color: #4d4d4d;
     --background-color: #e3e3e3;
     --border-color: #0A3200;
-    --main-background: #29b3c2;
-    --shadow: #4d6e6d;
+    --main-background: #fcba03;
+    --shadow: #805e03;
 }
 body {
     background-color: var(--main-background);
@@ -12,6 +12,7 @@ body {
 
 .topnav {
     overflow: hidden;
+    box-shadow: 5px 5px 5px var(--shadow);
     background-color: var(--background-color);
     border-radius: 0.5rem;
     padding: 1rem 1rem; 
@@ -33,19 +34,18 @@ a {
 }
 
 input {
-    /*display: flex;
-    flex-direction: row;
-    */
-    /*display: block;*/
+    display: block;
     margin: auto;
+    border-radius: 1rem;
+    padding-left: 2rem; 
+    padding-right: 2rem; 
+    padding-top: 1rem; 
+    padding-bottom: 1rem; 
+    /*width: 90%;*/
+    height: 50%;
     font-size: 20px;
     border: 4px solid var(--border-color);
     border-radius: 10px;
-    width: 60%;
-    padding: 1rem;
-    cursor: pointer;
-    position: relative;
-    top: 2rem;
 }
 
 .info-text {
@@ -54,24 +54,26 @@ input {
 }
 
 .autocomplete {
-    position: relative;
     display: block;
-    z-index: 2;
-
+    position: relative;
+    margin: auto;
+    width: 80%;
+    height: 50%;
+    font-size: 20px;
+    top: 2rem;  
+    /* border: 4px solid var(--border-color); */
 }
 
 .autocomplete-items {
-    position: relative;
-    z-index: 2;
+    position: absolute;
+    /* z-index: 2; */
     border: 1px solid;
-    top: 3rem;
-    left: 3.4rem;
-    width: 68.5%;
+    width: 100%;
 }
 
 .autocomplete-items div {
     z-index: 2;
-    padding: 10px 10px;
+    /* padding: 10px 10px; */
     cursor: pointer;
     background-color: white;
     border-bottom: 1px solid;
@@ -84,6 +86,13 @@ input {
 .autocomplete-active {
     background-color: grey;
 }
+#search_uni {
+    position: auto;
+    width: 90%;
+    height: 50%;
+    top: 2rem;  
+    border: 4px solid var(--border-color);
+}
 
 #site-card {
     margin: auto;
@@ -94,7 +103,7 @@ input {
     padding-right: 2rem; 
     padding-top: 1rem; 
     padding-bottom: 1rem; 
-    width: 60%;
+    width: 70%;
     height: 50%;
     color: var(--text-color);
     background: var(--background-color);
@@ -107,14 +116,15 @@ input {
     padding-right: 2rem; 
     padding-top: 1rem; 
     padding-bottom: 1rem; 
-    width: 60%;
+    width: 70%;
     height: 50%;
     color: var(--text-color);
 }
 
 #college-info-description {
     margin: auto;
-    width: 50%;
+    text-align: center;
+    width: 80%;
     padding: 10px;
 }
 
