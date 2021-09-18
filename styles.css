@@ -66,14 +66,14 @@ input {
 
 .autocomplete-items {
     position: absolute;
-    z-index: 2;
+    /* z-index: 2; */
     border: 1px solid;
     width: 100%;
 }
 
 .autocomplete-items div {
     z-index: 2;
-    padding: 10px 10px;
+    /* padding: 10px 10px; */
     cursor: pointer;
     background-color: white;
     border-bottom: 1px solid;
@@ -140,5 +140,4 @@ input {
 .svg-style {
     fill: white;
     margin: auto;
-    align-items: center;
 }
