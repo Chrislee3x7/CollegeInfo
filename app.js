@@ -17,12 +17,14 @@ function switchScreen() {
     window.location.href = "college-profile.html";
     sessionStorage.setItem("University_name", search.value);
     sessionStorage.setItem("University_list", universities);
+    sessionStorage.setItem("Complete_data", all_data);
 }
 
 // Loads universities from csv
-var universities = ["Purdue"];
+var universities = [];
+var all_data = [];
 $.ajax({
-    url: 'example.csv',
+    url: 'rur.tsv',
     dataType: 'text',
 }).done(fetchData);
 /*
@@ -32,11 +34,13 @@ function fetchData(data) {
     var allRows = data.split(/\r?\n|\r/);
     for (var i = 0; i < allRows.length; ++i) {
         if (i == 0) continue;
-        var row = allRows[i].split(',');
+        var row = allRows[i].split('\t');
         universities.push(row[1]);
-        console.log(row[1]);
+        all_data.push(row);
     }
     universities.sort();
+    universities = universities.join('\t');
+    all_data = all_data.join('\n');
 }
 
 
@@ -53,7 +57,7 @@ function autocomplete(inp, arr) {
         if (!val) { return false; }
         currentFocus = -1;
 
-        console.log("Val is " + val);
+        //console.log("Val is " + val);
 
         // a will hold the items
         a = document.createElement("DIV");
@@ -63,7 +67,7 @@ function autocomplete(inp, arr) {
         this.parentNode.appendChild(a);
         
         // Check if there are matching elements
-        for (i = 0; i < arr.length; ++i) {
+        for (i = 0; i < arr.length; ++i) { 
             var index = arr[i].toUpperCase().indexOf(val.toUpperCase());
             if(index >= 0) {
                 counter++;
@@ -72,24 +76,27 @@ function autocomplete(inp, arr) {
                 b.innerHTML += "<strong>" + arr[i].substr(index, val.length) + "</strong>";
                 b.innerHTML += arr[i].substr(index + val.length);
 
-                console.log("length of b is " + val.length);
-                console.log("Curr index is " + index);
-                console.log("b.innerHTML = " + b.innerHTML);
+                //console.log("length of b is " + val.length);
+                //console.log("Curr index is " + index);
+                //console.log("b.innerHTML = " + b.innerHTML);
 
                 b.addEventListener("click", function() {
                     //inp.value = this.getElementsByTagName("input")[0].value;
-                    var temp = b.innerHTML.substr(8);
+                    
+                    /*
+                    var temp = b.innerHTML.substr(0, b.innerHTML.indexOf("<")) + b.innerHTML.substr(b.innerHTML.indexOf(">"));
                     temp = temp.substr(0, temp.indexOf("<")) + temp.substr(temp.indexOf(">") + 1);
-                    inp.value = temp;
-                    closeAllLists(b);
+                    */
+                    var temp = this.innerText || this.textContent;
+                    inp.value = temp;           
+                    closeAllLists();
                     switchScreen();
                 });
 
+                if (counter == 5) break;
+
                 a.appendChild(b);
              }
-            if (counter == 5) {
-                break;
-            }
         }
         
         if (counter == 0) {
@@ -132,8 +139,8 @@ function autocomplete(inp, arr) {
         }
     }
     */
+    
 }
-
 
 
 autocomplete(search, universities);
