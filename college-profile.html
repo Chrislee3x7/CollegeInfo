@@ -3,12 +3,16 @@
 <head>
 	<title>College Info - Purdue University</title>
 	<link rel="stylesheet" href="styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 	<div class="topnav">
         <a class="active" href="index.html">College Info</a>
         <a href="about.html">About us</a>
     </div>
 <body>
+	<div class="autocomplete">
+		<input id="search_uni" type="text" name="searched_uni" placeholder="Search...">
+	</div>
 	<h1 id="university-title">Some University</h1>
 	<div id="site-card" class="myDiv">
   		<h3>US News Rankings</h3>
@@ -22,7 +26,7 @@
   		<h3>Niche</h3>
   		<p>This is some text in a div element.</p>
 	</div>
-
+	<script src="app.js"></script>
 	<script src="display_college.js"></script>
 </body>
 </html>
