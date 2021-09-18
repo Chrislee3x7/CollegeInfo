@@ -1,1 +1,24 @@
+:root {
+    --text-color: #3CC47C;
+}
 
+.topnav {
+    overflow: hidden;
+    background-color: #E9C893;
+    color: #3CC47C;
+}
+
+.topnav a {
+    display: flex;
+    padding: 14px 16px;
+    color: var(--text-color);
+    font-size: 17px;
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    display: flex;
+}
