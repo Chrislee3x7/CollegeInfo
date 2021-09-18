@@ -4,18 +4,21 @@ search.addEventListener("keyup", function() {
     console.log(search.textContent);
     if (event.keyCode == 13) {
         console.log("Enter is pressed");
-        window.location.href = "college-profile.html" + "?" + search.value;
+        window.location.href = "college-profile.html";
+        //window.location.href = "college-profile.html" + "?" + search.value;
+        sessionStorage.setItem("University_name", search.value);
     }
 })
 
 // Loads universities from csv
 var universities = ["Purdue"];
-
 $.ajax({
     url: 'example.csv',
     dataType: 'text',
 }).done(fetchData);
-
+/*
+    @parameter data: csv file
+*/
 function fetchData(data) {
     var allRows = data.split(/\r?\n|\r/);
     for (var i = 0; i < allRows.length; ++i) {
