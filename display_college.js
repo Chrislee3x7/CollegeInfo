@@ -37,7 +37,7 @@ window.onload = function() {
             }
             
             const score = currRow.substr(index, currRow.indexOf(',', index) - index);
-            rur.innerHTML += " ( " + score + " ) "; 
+            rur.innerHTML += " ( " + score + " / 100.00 ) "; 
         }
     }
     
