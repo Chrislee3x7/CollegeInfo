@@ -11,7 +11,12 @@
         <a href="about.html">About us</a>
     </div>
     <body>
-        <input id="search_uni" type="text" placeholder="Search...">
+        <form autocomplete="off" action="/action_page.php">
+            <div class="autocomplete" style="width:300px;">
+                <input id="search_uni" type="text" name="searched_uni" placeholder="Search...">
+            </div>
+        </form>
+        
         <div class="info-text">
             <h2>
                 Find University Infos
