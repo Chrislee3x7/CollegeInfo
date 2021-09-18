@@ -1,10 +1,9 @@
 :root {
-    --text-color: #0A3200;
-    --background-color: #74F2CE;
+    --text-color: #4d4d4d;
+    --background-color: #e3e3e3;
     --border-color: #0A3200;
-    --main-background: #BFFFF1;
-    --gradient-1: #fff3d4;
-    --gradient-2: #fffaeb;
+    --main-background: #29b3c2;
+    --shadow: #4d6e6d;
 }
 body {
     background-color: var(--main-background);
@@ -14,16 +13,18 @@ body {
 .topnav {
     overflow: hidden;
     background-color: var(--background-color);
+    border-radius: 0.5rem;
+    padding: 0.5rem; 
 }
 
 .topnav a {
     display: flex;
     padding: 10px;
     align-items:center;
-    color: var(--text-color);
     font-size: 17px;
     font-weight: 900;
     float: left;
+    color: var(--text-color);
 }
 
 a {
@@ -52,17 +53,17 @@ input {
 
 #site-card {
     margin: auto;
-    box-shadow: 5px 5px 5px lightgray;
+    box-shadow: 5px 5px 5px var(--shadow);
     margin-top: 1rem;
-    border-radius: 10px;
-    color: var(--text-color);
-    background: var(--background-color);
+    border-radius: 1rem;
     padding-left: 2rem; 
     padding-right: 2rem; 
     padding-top: 1rem; 
     padding-bottom: 1rem; 
-    width: 60%;
+    width: 50%;
     height: 50%;
+    color: var(--text-color);
+    background: var(--background-color);
 }
 
 #university-title {
@@ -72,8 +73,15 @@ input {
     padding-right: 2rem; 
     padding-top: 1rem; 
     padding-bottom: 1rem; 
-    width: 60%;
+    width: 50%;
     height: 50%;
+    color: var(--text-color);
+}
+
+#college-info-description {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
 }
 
 .info-text {
