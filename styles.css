@@ -282,6 +282,16 @@ input:focus {
     animation-name: slidein;
 }
 
+#sci-card {
+    animation-duration: 5s;
+    animation-name: slidein;
+}
+
+#rur-card {
+    animation-duration: 6s;
+    animation-name: slidein;
+}
+
 @keyframes slidein {
     from {
         margin-top: -6rem;

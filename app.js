@@ -16,12 +16,14 @@ search.addEventListener("keyup", function() {
 function switchScreen() {
     window.location.href = "college-profile.html";
     sessionStorage.setItem("University_name", search.value);
+    universities = universities.join('\t');
     sessionStorage.setItem("University_list", universities);
     sessionStorage.setItem("Complete_data", all_data);
 }
 
 // Loads universities from csv
 var universities = [];
+var set = new Set();
 var all_data = [];
 
 const invocation = new XMLHttpRequest();
@@ -29,7 +31,7 @@ const url = 'rur.tsv';
 
 
 $.ajax({
-    url: 'comprehensive.tsv',
+    url: 'final_data.tsv',
     dataType: 'text',
 }).done(fetchData_from_comprehensive);
 
@@ -41,11 +43,13 @@ function fetchData_from_comprehensive(data) {
     for (var i = 0; i < allRows.length; ++i) {
         if (i == 0) continue;
         var row = allRows[i].split('\t');
-        universities.push(row[0]);
+        set.add(row[0]);
         all_data.push(row);
     }
-    universities.sort();
-    universities = universities.join('\t');
+    set.forEach(x => universities.push(x));
+    universities = universities.sort();
+    // universities = universities.join('\t');
+    // console.log(universities);
     all_data = all_data.join('\n');
 }
 /*
@@ -92,10 +96,11 @@ function autocomplete(inp, arr) {
         a.setAttribute("class", "autocomplete-items");
 
         this.parentNode.appendChild(a);
-        
+        console.log(arr.length);
         // Check if there are matching elements
         for (i = 0; i < arr.length; ++i) { 
             var index = arr[i].toUpperCase().indexOf(val.toUpperCase());
+            console.log(arr[i]);
             if(index >= 0) {
                 counter++;
                 b = document.createElement("DIV");
