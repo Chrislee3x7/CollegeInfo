@@ -65,7 +65,7 @@ input:focus {
     width: 80%;
     height: 50%;
     font-size: 20px;
-    top: 2rem;  
+    top: 3rem;  
     /* border: 4px solid var(--border-color); */
 }
 
@@ -148,7 +148,9 @@ input:focus {
 
 .card-group {
     display: flex;
-    margin: auto;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
     /*border: 4px solid var(--border-color);*/
 
 }
@@ -157,6 +159,8 @@ input:focus {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 1rem;
+    overflow: ;
     /*border: 4px solid var(--border-color);*/
 
 }
@@ -167,6 +171,7 @@ input:focus {
     justify-content: space-between;
     /*align-content: center;*/
     position: relative;
+    min-width: 30rem;
     box-shadow: 5px 5px 5px var(--shadow);
     top: 7rem;
     left: 1rem;
@@ -185,7 +190,10 @@ input:focus {
     text-align: center;
 }
 
+
+
 .btn-primary {
+<<<<<<< HEAD
     position: relative;
     left: 1.2rem;
 }
@@ -217,4 +225,9 @@ input:focus {
     top: 1.5rem;
     left: -3rem;
     font-size: 2.5rem;
+=======
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+>>>>>>> 6ce30d0c4132b70edee2679fc430bae5d44ea894
 }
