@@ -26,12 +26,9 @@ var universities = [];
 var set = new Set();
 var all_data = [];
 
-const invocation = new XMLHttpRequest();
-const url = 'rur.tsv';
-
 
 $.ajax({
-    url: 'final_data.tsv',
+    url: 'test_data.tsv',
     dataType: 'text',
 }).done(fetchData_from_comprehensive);
 
