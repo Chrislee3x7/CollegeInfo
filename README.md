@@ -17,6 +17,10 @@ To reduce complexity, only first 5 results will be shown based on alphabetical o
 The web contents are responsive to the window size. Smaller window will result in smaller commponent sizes. 
 This was one of the main focus of our web development progress.
 
+## Challenge: Overlapping University Name
+Some universities appeared in different sources with different names such as an extra space in the end of its name.
+We solved most of this problem through python strip function and javascript set data structure.
+
 ## Credits
 Joseph Lin, Chris Lee, Lance Ma, Segyul Park <br/>
 Made for Hello World Hackathon 2021
