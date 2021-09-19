@@ -30,14 +30,15 @@ window.onload = function() {
         if (currName == retrieved_name) {
             console.log("This was true");
             const rur = document.getElementById("RUR");
-            rur.innerHTML = currRow.substr(0, index);
+            rur.innerHTML = "<strong>Global Ranking:</strong> " + currRow.substr(0, index);
             
             while (index < currRow.length && (currRow.charAt(index) < '0' || currRow.charAt(index) > '9')) {
                 index++;
             }
             
             const score = currRow.substr(index, currRow.indexOf(',', index) - index);
-            rur.innerHTML += " ( " + score + " / 100.00 ) "; 
+            rur.innerHTML += "<br><strong> Round University Ranking Score: </strong>"
+            rur.innerHTML += score + " / 100.00"; 
         }
     }
     
