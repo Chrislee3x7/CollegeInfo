@@ -1,0 +1,401 @@
+name	country	arwu	QS	THE	ARTU
+Stanford University	United States	2	2	2	1
+Harvard University	United States	1	3	3	2
+Massachusetts Institute of Technology (MIT)	United States	4	1	5	3
+University of Oxford	United Kingdom	9	5	1	4
+University of Cambridge	United Kingdom	3	7	6	5
+California Institute of Technology (Caltech)	United States	8	4	4	5
+Princeton University	United States	6	12	9	7
+University of Chicago (UChicago)	United States	10	9	10	8
+Yale University	United States	11	17	8	9
+Swiss Federal Institute of Technology Zurich (ETH Zurich)	Switzerland	20	6	14	10
+University of California, Berkeley (UC Berkeley)	United States	5	30	7	11
+University College London (UCL)	United Kingdom	16	10	16	11
+Columbia University	United States	7	19	17	13
+Imperial College London	United Kingdom	25	8	11	14
+University of Pennsylvania (UPenn)	United States	19	16	13	15
+Cornell University	United States	12	18	19	16
+Johns Hopkins University (JHU)	United States	15	25	12	17
+University of California, Los Angeles (UCLA)	United States	13	36	15	18
+Tsinghua University	China	29	15	20	18
+University of Michigan-Ann Arbor (UMich)	United States	22	21	22	20
+University of Toronto (U of T)	Canada	23	25	18	21
+Northwestern University	United States	30	29	24	22
+University of Tokyo (UTokyo)	Japan	26	24	36	23
+New York University (NYU)	United States	27	35	26	24
+Duke University	United States	27	42	20	25
+University of Edinburgh	United Kingdom	42	20	30	26
+Peking University	China	49	23	23	27
+University of California, San Diego (UCSD)	United States	18	54	33	28
+University of Melbourne	Australia	35	41	31	29
+King's College London (KCL)	United Kingdom	47	31	35	30
+University of Manchester	United Kingdom	36	27	51	31
+National University of Singapore (NUS)	Singapore	80	11	25	32
+University of Washington (UW)	United States	16	72	29	33
+University of British Columbia (UBC)	Canada	38	45	34	33
+Kyoto University	Japan	34	38	54	35
+Université Paris Sciences et Lettres (Université PSL)	France	36	52	46	36
+Swiss Federal Institute of Technology Lausanne (EPFL)	Switzerland	83	14	43	37
+Technical University Munich (TUM)	Germany	54	50	41	38
+University of Wisconsin - Madison (UW Madison)	United States	32	65	49	39
+University of Munich (LMU Munich)	Germany	51	63	32	39
+McGill University	Canada	78	31	40	41
+Nanyang Technological University (NTU)	Singapore	91	13	47	42
+University of Texas at Austin (UT Austin)	United States	41	71	44	43
+Australian National University (ANU)	Australia	67	31	59	44
+University of Queensland (UQ)	Australia	54	46	62	45
+Heidelberg University	Germany	57	64	42	46
+University of Sydney	Australia	74	40	51	47
+Carnegie Mellon University (CMU)	United States	95	51	28	48
+University of Illinois at Urbana-Champaign (UIUC)	United States	45	82	48	49
+Washington University in St. Louis (WUSTL)	United States	23	105	50	50
+University of North Carolina at Chapel Hill (UNC-Chapel Hill)	United States	30	95	56	51
+UNSW Sydney	Australia	74	44	67	52
+University of Copenhagen (UCPH)	Denmark	33	76	84	53
+University of Zurich (UZH)	Switzerland	56	69	73	54
+Monash University	Australia	85	55	64	55
+Seoul National University (SNU)	South Korea	107	37	60	55
+Fudan University	China	100	34	70	55
+Zhejiang University (ZJU)	China	58	53	94	58
+Sorbonne University	France	39	83	87	59
+Shanghai Jiao Tong University (SJTU)	China	63	47	100	60
+University of Bristol	United Kingdom	64	58	91	61
+University of Hong Kong (HKU)	Hong Kong, China	156	22	39	62
+Brown University	United States	102	60	61	63
+Katholieke Universiteit Leuven (KU Leuven)	Belgium	97	84	45	64
+University of Southern California (USC)	United States	61	121	53	65
+Georgia Institute of Technology (Georgia Tech)	United States	129	80	38	66
+Utrecht University	Netherlands	52	121	75	67
+Chinese University of Hong Kong (CUHK)	Hong Kong, China	149	43	56	67
+London School of Economics and Political Science (LSE)	United Kingdom	173	49	27	69
+University of Amsterdam (UvA)	Netherlands	125	61	66	70
+University of Science and Technology of China (USTC)	China	73	93	87	71
+Boston University (BU)	United States	90	110	54	72
+University of Warwick	United Kingdom	118	62	77	73
+University of California, Davis (UC Davis)	United States	91	112	64	74
+University of California, Santa Barbara (UCSB)	United States	49	152	68	75
+University of Helsinki	Finland	74	104	98	76
+University of Groningen	Netherlands	69	128	80	77
+Leiden University	Netherlands	80	128	70	78
+Purdue University - West Lafayette	United States	79	109	94	79
+University of Maryland, College Park (UMD)	United States	53	152	90	80
+Ohio State University - Columbus (OSU)	United States	111	108	80	81
+University of Oslo (UiO)	Norway	60	113	127	82
+University of Minnesota (UMN)	United States	40	177	85	83
+Ghent University (UGent)	Belgium	66	135	103	84
+McMaster University	Canada	98	144	69	85
+Uppsala University	Sweden	77	124	111	86
+University of Geneva (UNIGE)	Switzerland	59	106	149	87
+University of Western Australia (UWA)	Australia	85	92	139	88
+Aarhus University	Denmark	69	147	106	89
+Rice University	United States	110	89	124	90
+University of Glasgow	United Kingdom	154	77	92	90
+Delft University of Technology (TU Delft)	Netherlands	188	57	78	90
+Pennsylvania State University - University Park (Penn State)	United States	109	101	114	93
+University of Basel	Switzerland	88	149	92	94
+University of Birmingham	United Kingdom	135	87	107	94
+Wageningen University & Research (WUR)	Netherlands	157	115	62	96
+University of Sheffield	United Kingdom	124	93	121	97
+University of Bern	Switzerland	117	114	109	98
+Moscow State University (MSU)	Russia	93	74	174	99
+Erasmus University Rotterdam (EUR)	Netherlands	80	197	72	100
+University of Montreal	Canada	159	118	73	101
+Lund University	Sweden	155	97	103	102
+Vanderbilt University	United States	62	187	111	103
+University of Southampton	United Kingdom	143	90	127	103
+Emory University	United States	118	158	85	105
+National Taiwan University (NTU)	Taiwan, China	201	66	97	106
+University of Nottingham	United Kingdom	111	99	158	107
+University of Adelaide	Australia	152	106	118	108
+University of California, Irvine (UC Irvine)	United States	69	210	98	109
+City University of Hong Kong (CityU)	Hong Kong, China	207	48	126	110
+Nanjing University (NJU)	China	147	124	111	111
+University of Freiburg	Germany	126	175	83	112
+University of Alberta	Canada	134	119	131	112
+University of Pittsburgh, Pittsburgh Campus (Pitt)	United States	96	156	133	114
+Korea Advanced Institute of Science and Technology (KAIST)	South Korea	253	39	96	115
+University of Leeds	United Kingdom	142	91	160	116
+Hong Kong University of Science and Technology (HKUST)	Hong Kong, China	313	27	56	117
+University of Florida (UF)	United States	88	162	152	118
+Michigan State University (MSU)	United States	140	157	105	118
+University of Colorado at Boulder (CU Boulder)	United States	44	230	131	120
+Case Western Reserve University (CWRU)	United States	122	162	121	120
+Sungkyunkwan University (SKKU)	South Korea	218	88	101	122
+Stockholm University	Sweden	69	181	183	123
+Trinity College Dublin (TCD)	Ireland	178	101	155	124
+Hong Kong Polytechnic University (PolyU)	Hong Kong, China	230	75	129	124
+Queen Mary University of London (QMUL)	United Kingdom	213	114	110	126
+University of Tuebingen	Germany	184	175	78	126
+University of Bonn	Germany	87	240	114	128
+University of Goettingen	Germany	123	195	130	129
+University of Auckland (UOA)	New Zealand	222	81	147	130
+Radboud University (RU Nijmegen)	Netherlands	105	214	136	131
+Technical University of Denmark (DTU)	Denmark	165	103	187	131
+University of Liverpool	United Kingdom	114	181	163	133
+Tohoku University (Tohokudai)	Japan	171	79	215	134
+University of Sao Paulo (USP)	Brazil	127	115	227	135
+University of Rochester	United States	162	166	147	136
+University of Paris	France	65	275	136	137
+Korea University (KU)	South Korea	241	69	167	138
+Vrije Universiteit Amsterdam (VU)	Netherlands	131	236	116	139
+University of Exeter	United Kingdom	158	164	174	140
+University of Lausanne (UNIL)	Switzerland	137	169	191	141
+University of Vienna	Austria	183	150	164	141
+Paris-Saclay University	France	14	305	178	141
+Cardiff University	United Kingdom	153	159	191	144
+Tokyo Institute of Technology (Tokyo Tech)	Japan	136	56	315	145
+RWTH Aachen University	Germany	257	145	107	146
+Durham University	United Kingdom	279	86	149	147
+Hebrew University of Jerusalem (HUJI)	Israel	101	177	237	148
+Arizona State University (ASU)	United States	113	220	184	149
+King Abdulaziz University (KAU)	Saudi Arabia	145	143	232	150
+University of Virginia (UVA)	United States	191	217	117	151
+Yonsei University	South Korea	254	85	187	152
+Rutgers University, New Brunswick (RU New Brunswick)	United States	103	258	166	153
+Universite Catholique de Louvain (UCLouvain)	Belgium	175	189	164	154
+University of Arizona	United States	132	273	124	155
+University of Technology Sydney (UTS)	Australia	237	133	160	156
+University of Gothenburg	Sweden	149	202	191	157
+Technical University of Dresden (TU Dresden)	Germany	219	173	152	158
+Texas A&M University (TAMU)	United States	181	169	197	159
+KTH Royal Institute of Technology (KTH)	Sweden	214	98	240	160
+Nagoya University	Japan	83	110	363	161
+Sapienza University of Rome	Italy	169	171	217	162
+University of Waterloo	Canada	160	166	233	163
+Newcastle University	United Kingdom	231	152	178	164
+University of Barcelona (UB)	Spain	182	183	198	165
+University of Bologna (UNIBO)	Italy	239	160	167	166
+University of York	United Kingdom	283	150	133	166
+Dartmouth College	United States	270	203	101	168
+Pohang University of Science and Technology (POSTECH)	South Korea	360	77	151	169
+Osaka University (Handai)	Japan	164	72	353	170
+Université libre de Bruxelles (ULB)	Belgium	129	250	214	171
+Tel Aviv University (TAU)	Israel	176	230	191	172
+University of Sussex (US)	United Kingdom	192	246	160	173
+University of Hamburg (UHH)	Germany	236	228	135	174
+Tufts University	United States	188	260	155	175
+University of Aberdeen	United Kingdom	220	207	178	176
+Lancaster University	United Kingdom	335	135	136	177
+University of Cologne (UoC)	Germany	180	282	145	178
+Karlsruhe Institute of Technology (KIT)	Germany	279	131	203	179
+University of Ottawa (uOttawa)	Canada	195	279	145	180
+Technical University of Berlin (TU Berlin)	Germany	341	148	140	181
+University of Calgary (UCalgary)	Canada	190	246	200	182
+Georgetown University	United States	297	230	120	183
+University of Wollongong (UOW)	Australia	226	196	231	184
+Maastricht University (UM)	Netherlands	298	234	121	184
+Western University	Canada	247	203	204	186
+Macquarie University (MQ)	Australia	246	214	195	187
+Autonomous University of Barcelona (UAB)	Spain	262	213	182	188
+Sun Yat-sen University (SYSU)	China	104	263	294	189
+University of Cape Town (UCT)	South Africa	293	220	155	190
+Curtin University	Australia	211	217	248	191
+University of St Andrews (St And)	United Kingdom	343	96	241	192
+University of Utah	United States	115	333	242	193
+University of Padua (UNIPD)	Italy	216	216	261	194
+University of Leicester	United Kingdom	299	242	170	195
+University of Antwerp (UAntwerp)	Belgium	305	238	170	196
+Eindhoven University of Technology (TU/e)	Netherlands	407	120	187	197
+Queensland University of Technology (QUT)	Australia	320	217	186	198
+University of Muenster (WWU Muenster)	Germany	174	356	195	199
+University of Notre Dame (ND)	United States	351	211	170	200
+University of Reading	United Kingdom	291	205	236	200
+Chalmers University of Technology (Chalmers)	Sweden	363	139	237	202
+Wuhan University (WHU)	China	170	246	325	203
+Ecole Normale Superieure - Lyon (ENSL)	France	314	161	272	204
+Goethe University Frankfurt	Germany	148	311	291	205
+Aalto University	Finland	402	127	221	205
+University of Malaya (UM)	Malaysia	366	59	330	207
+University of Miami (UM)	United States	229	291	239	208
+University College Dublin (UCD)	Ireland	322	177	260	208
+Friedrich–Alexander University Erlangen–Nuremberg (FAU)	Germany	254	317	198	210
+University of Otago	New Zealand	369	184	222	211
+Northeastern University	United States	239	362	176	212
+Vrije Universiteit Brussel (VUB)	Belgium	317	200	262	213
+University of Wuerzburg (JMU)	Germany	203	437	140	214
+Queen's University	Canada	264	246	274	215
+University of California, Santa Cruz (UC Santa Cruz)	United States	166	416	208	216
+Polytechnic University of Milan	Italy	281	137	372	216
+University of Bergen (UiB)	Norway	388	194	220	218
+Ulm University (UULM)	Germany	319	344	140	219
+Beijing Normal University (BNU)	China	217	279	308	220
+University of East Anglia (UEA)	United Kingdom	272	333	200	221
+University of Illinois at Chicago (UIC)	United States	273	256	277	222
+Technion-Israel Institute of Technology	Israel	108	291	409	223
+Deakin University	Australia	234	275	299	223
+University of Bath	United Kingdom	390	173	249	225
+Virginia Polytechnic Institute and State University (Virginia Tech)	United States	242	326	246	226
+Harbin Institute of Technology (HIT)	China	139	260	418	227
+Queen's University Belfast (QUB)	United Kingdom	413	209	200	228
+Hanyang University	South Korea	296	146	381	229
+Université Grenoble Alpes (UGA)	France	99	342	386	230
+Huazhong University of Science and Technology (HUST)	China	118	396	313	230
+Pompeu Fabra University (UPF)	Spain	389	287	152	232
+Aalborg University (AAU)	Denmark	307	305	219	233
+Griffith University	Australia	307	303	225	234
+University of Newcastle (UON)	Australia	366	197	281	235
+University of Twente	Netherlands	407	197	243	236
+Hokkaido University (Hokudai)	Japan	197	139	514	237
+University of Milan	Italy	184	301	371	238
+Dalhousie University (Dal)	Canada	277	291	292	239
+Tongji University	China	204	256	404	240
+George Washington University (GW)	United States	326	353	187	241
+University of the Witwatersrand (Wits University)	South Africa	266	403	207	242
+Kyushu University (Kyudai)	Japan	302	124	453	243
+University of Hawaii at Manoa (UH Manoa)	United States	305	333	243	244
+Autonomous University of Madrid (UAM)	Spain	341	200	342	245
+Xian Jiaotong University (XJTU)	China	138	303	449	246
+Royal Melbourne Institute of Technology (RMIT)	Australia	330	223	340	247
+Kyung Hee University (KHU)	South Korea	396	236	266	248
+King Saud University (KSU)	Saudi Arabia	200	287	415	249
+North Carolina State University - Raleigh (NC State)	United States	268	295	341	250
+University of Surrey	United Kingdom	379	267	263	251
+University of Iowa (UIowa)	United States	248	420	247	252
+University of California, Riverside (UC Riverside)	United States	202	449	265	253
+University of Dundee	United Kingdom	370	319	230	254
+University of Colorado Denver (CU Denver)	United States	212	398	317	255
+Norwegian University of Science and Technology (NTNU)	Norway	128	360	447	256
+Southern University of Science and Technology (SUSTech)	China	362	323	254	257
+Nankai University (NKU)	China	209	377	362	258
+State University of New York at Buffalo (SUNY Buffalo)	United States	327	346	275	258
+University of Southern Denmark (SDU)	Denmark	311	353	286	260
+La Trobe University	Australia	324	398	234	261
+Vienna University of Technology (TU Wien)	Austria	344	191	422	262
+University of Innsbruck	Austria	295	265	399	263
+National Tsing Hua University (NTHU)	Taiwan, China	429	168	367	264
+Stony Brook University (SBU)	United States	282	373	314	265
+University of Tasmania (UTAS)	Australia	288	308	375	266
+Laval University (ULaval)	Canada	299	420	259	267
+University of Pisa (UniPi)	Italy	161	383	443	268
+Simon Fraser University (SFU)	Canada	393	323	273	269
+Mainz University (JGU)	Germany	278	403	311	270
+Moscow Institute of Physics and Technology (MIPT)	Russia	490	281	226	271
+Florida State University (FSU)	United States	259	456	285	272
+University of Jena	Germany	420	323	257	272
+Technical University Darmstadt (TU Darmstadt)	Germany	435	267	305	274
+University of Tartu (UT)	Estonia	426	285	297	275
+Indian Institute of Science (IISc)	India	502	185	327	276
+University of Campinas (Unicamp)	Brazil	332	233	452	277
+James Cook University (JCU)	Australia	310	462	250	278
+Swinburne University of Technology (Swinburne)	Australia	269	372	385	279
+University of Tsukuba	Japan	261	265	504	280
+University of Stuttgart	Germany	344	333	355	281
+Charles University in Prague (CU)	Czech Republic	286	260	487	282
+Brandeis University	United States	346	446	245	283
+University College Cork (UCC)	Ireland	416	286	335	283
+University of Kansas (KU)	United States	270	383	392	285
+University of Turku (UTU)	Finland	395	287	365	286
+University of Strasbourg (Unistra)	France	133	398	522	287
+University of Tennessee - Knoxville (UT Knoxville)	United States	283	432	338	287
+South China University of Technology (SCUT)	China	178	462	414	289
+Complutense University of Madrid (UCM)	Spain	252	206	600	290
+Tianjin University (TJU)	China	187	387	499	291
+Colorado State University (CSU)	United States	224	443	412	292
+University of Western Sydney (UWS)	Australia	368	474	251	293
+Ruhr-University Bochum (RUB)	Germany	401	439	258	294
+University of Liège (ULiège)	Belgium	299	451	351	295
+University of Lisbon (ULisboa)	Portugal	198	357	549	296
+Vita-Salute San Raffaele University	Italy	457	392	255	296
+University of Navarra	Spain	570	252	282	296
+Umea University	Sweden	407	333	366	299
+University of Victoria (UVic)	Canada	348	370	393	300
+University of Bordeaux	France	258	425	430	301
+University of Missouri - Columbia (Mizzou)	United States	193	483	446	302
+University of Canterbury (UC)	New Zealand	446	270	406	302
+University of South Australia (UniSA)	Australia	505	295	322	302
+Linkoping University (LiU)	Sweden	354	362	411	305
+Flinders University	Australia	421	423	283	305
+Washington State University (WSU)	United States	394	411	325	307
+Loughborough University (Lough)	United Kingdom	552	226	359	308
+Oregon State University	United States	215	499	427	309
+Wake Forest University (WFU)	United States	470	380	295	310
+Southeast University - China	China	144	493	511	311
+University of Trento (UniTrento)	Italy	406	403	344	312
+Pontifical Catholic University of Chile (UC)	Chile	529	121	513	313
+University of Naples Federico II	Italy	337	392	435	314
+King Fahd University of Petroleum & Minerals (KFUPM)	Saudi Arabia	474	186	507	315
+University of Porto	Portugal	365	357	456	316
+University of Florence (UniFi)	Italy	318	432	429	317
+Xiamen University (XMU)	China	231	432	528	318
+National Autonomous University of Mexico (UNAM)	Mexico	248	100	848	319
+National University of Ireland, Galway (NUI)	Ireland	614	238	347	320
+Stellenbosch University (SU)	South Africa	459	456	287	321
+American University of Beirut (AUB)	Lebanon	657	220	331	322
+Beihang University (BUAA)	China	199	449	570	323
+Tilburg University	Netherlands	627	368	223	323
+University of Kent	United Kingdom	512	380	328	325
+Beijing Institute of Technology (BIT)	China	243	392	586	326
+National Cheng Kung University (NCKU)	Taiwan, China	387	234	602	327
+University of Oulu	Finland	499	408	316	327
+Saint Petersburg State University (SPBU)	Russia	315	225	693	329
+Tampere University	Finland	530	409	302	330
+Victoria University of Wellington	New Zealand	475	223	544	331
+University of Strathclyde	United Kingdom	501	300	454	332
+Qatar University (QU)	Qatar	693	245	319	333
+National Chiao Tung University (NCTU)	Taiwan, China	468	240	565	334
+Università della Svizzera italiana	Switzerland	716	273	284	334
+Keio University	Japan	359	191	731	336
+Brunel University	United Kingdom	550	368	368	337
+University of Essex	United Kingdom	577	411	300	338
+University of Canberra (UC)	Australia	661	456	184	339
+University of Saskatchewan (USask)	Canada	353	465	484	340
+University of Macau (UM)	Macao, China	630	367	307	341
+Boston College (BC)	United States	552	454	300	342
+National Yang-Ming University (NYMU)	Taiwan, China	593	298	418	343
+Shandong University (SDU)	China	196	485	629	344
+Mahidol University (MU)	Thailand	421	252	646	345
+UiT The Arctic University of Norway (UArctic)	Norway	530	416	390	346
+University of Konstanz	Germany	645	443	264	347
+Swansea University	United Kingdom	608	474	288	348
+Tulane University	United States	653	414	304	349
+National University of Malaysia (UKM)	Malaysia	572	141	662	350
+Royal Holloway, University of London (RHUL)	United Kingdom	743	308	333	351
+Taipei Medical University (TMU)	Taiwan, China	696	387	303	352
+Jagiellonian University (JU)	Poland	466	326	599	353
+Universidade NOVA de Lisboa	Portugal	604	428	369	354
+Novosibirsk State University (NSU)	Russia	508	228	674	355
+Wayne State University	United States	560	477	380	356
+University of Science, Malaysia (USM)	Malaysia	543	142	735	357
+Hong Kong Baptist University (HKBU)	Hong Kong, China	795	264	378	358
+Heriot-Watt University	United Kingdom	768	301	376	359
+University of Eastern Finland (UEF)	Finland	515	499	437	360
+Tokyo Medical And Dental University (TMDU)	Japan	654	362	444	361
+Hasselt University	Belgium	634	456	374	362
+City, University of London (CUL)	United Kingdom	763	350	354	363
+Rensselaer Polytechnic Institute (RPI)	United States	469	470	529	364
+Higher School of Economics (HSE University) 	Russia	885	298	298	365
+Sharif University of Technology (SUT)	Iran	600	409	476	366
+Graz University of Technology (TU Graz)	Austria	665	275	558	367
+Massey University	New Zealand	637	272	604	368
+Politecnico di Torino	Italy	614	308	594	369
+National Research Nuclear University MEPhI	Russia	701	314	502	370
+Universiti Teknologi Malaysia (UTM)	Malaysia	656	187	684	371
+University of Jyväskylä	Finland	723	333	481	372
+University of Warsaw (UW)	Poland	398	321	820	373
+University of Chile	Chile	465	180	899	374
+Polytechnic University of Valencia (UPV)	Spain	378	326	846	375
+Shanghai University (SHU)	China	351	387	825	376
+University of Coimbra (UC)	Portugal	520	431	615	377
+Amirkabir University of Technology (Tehran Polytechnic)	Iran	575	477	527	378
+University of Science and Technology Beijing (USTB)	China	275	446	862	379
+Ewha Womans University	South Korea	591	333	678	380
+Tomsk State University (TSU)	Russia	808	250	545	381
+Auckland University of Technology (AUT)	New Zealand	913	437	256	382
+Universiti Putra Malaysia (UPM)	Malaysia	792	132	692	383
+Kobe University	Japan	441	403	782	384
+University of Cyprus	Cyprus	633	477	519	385
+University of Waikato (UoW)	New Zealand	755	375	523	386
+Jilin University (JLU)	China	172	493	1002	387
+Gwangju Institute of Science and Technology (GIST)	South Korea	877	295	509	388
+Hiroshima University (HU)	Japan	535	321	827	389
+Chung-Ang University (CAU)	South Korea	672	403	620	390
+Birkbeck, University of London (BBK)	United Kingdom	986	344	379	391
+National Taiwan University of Science and Technology (Taiwan Tech)	Taiwan, China	893	267	562	392
+Chulalongkorn University (Chula)	Thailand	729	208	801	393
+Federal University of Rio de Janeiro (UFRJ)	Brazil	411	380	949	394
+Waseda University (Sōdai)	Japan	686	189	869	395
+Concordia University	Canada	635	477	632	395
+University of Stirling	United Kingdom	930	485	339	397
+Universitat Politècnica de Catalunya (UPC)	Spain	748	314	702	398
+Sao Paulo State University (UNESP)	Brazil	339	493	952	399
+Lappeenranta-Lahti University of Technology (LUT)	Finland	954	470	383	400

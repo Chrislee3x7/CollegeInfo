@@ -23,6 +23,10 @@ function switchScreen() {
 // Loads universities from csv
 var universities = [];
 var all_data = [];
+
+const invocation = new XMLHttpRequest();
+const url = 'rur.tsv';
+
 $.ajax({
     url: 'rur.tsv',
     dataType: 'text',
@@ -31,6 +35,7 @@ $.ajax({
     @parameter data: csv file
 */
 function fetchData(data) {
+    console.log("Fetching data successful");
     var allRows = data.split(/\r?\n|\r/);
     for (var i = 0; i < allRows.length; ++i) {
         if (i == 0) continue;
