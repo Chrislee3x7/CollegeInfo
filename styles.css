@@ -159,7 +159,8 @@ input:focus {
 }
 
 .card-group {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -188,11 +189,12 @@ input:focus {
     top: 7rem;
     left: 0.5vw;
     background-color: white;
-    border: 2px solid var(--border-color);
+    border: 0.2vw solid var(--border-color);
     border-radius: 1rem;
     height: inherit;
     padding: 1vw;
     margin: 0.5vw;
+    margin-top: 2vw;
 }
 
 .card-title {
@@ -215,7 +217,7 @@ input:focus {
 .site-card {
     display: none;
     margin: auto;
-    box-shadow: 5px 5px 5px var(--shadow);
+    box-shadow: 5vw 5vw 5vw var(--shadow);
     margin-top: 2rem;
     border-radius: 0.5vw;
     padding-left: 1vw;
@@ -326,6 +328,7 @@ input:focus {
 
 .footer {
     display: flex;
+    justify-content: center;
     clear: both;
     position: absolute;
     bottom: 0;
