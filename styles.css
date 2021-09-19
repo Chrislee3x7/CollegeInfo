@@ -28,7 +28,7 @@ body::after {
     padding: 1rem 1rem;
 }
 
-/*.topnav a {
+.topnav a {
     display: inline-block;
     padding: 10px;
     align-items:center;
@@ -36,12 +36,12 @@ body::after {
     font-weight: 900;
     float: left;
     color: var(--text-color);
-}*/
+}
 
-/*a {
+a {
     text-decoration: none;
     font-family: Verdana, sans-serif;
-}*/
+}
 
 input {
     display: block;
