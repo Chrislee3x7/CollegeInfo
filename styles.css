@@ -1,9 +1,11 @@
 :root {
-    --text-color: #4d4d4d;
+    --text-color: #424242;
     --background-color: #e3e3e3;
     --border-color: #4d4d4d;
     --main-background: #fcba03;
     --shadow: #805e03;
+    --search-bar-color: #9e7e24; 
+    --site-card-color: #e9d4b7;
 }
 body {
     background-color: var(--main-background);
@@ -37,7 +39,7 @@ a {
 input {
     display: block;
     margin: auto;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     padding-left: 1rem;
     padding-right: 7rem;
     padding-top: 1rem;
@@ -45,8 +47,8 @@ input {
     /*width: 90%;*/
     height: 50%;
     font-size: 20px;
-    border: 4px solid var(--border-color);
-    border-radius: 10px;
+    border: 2px solid var(--search-bar-color);
+    /* border-radius: 10px; */
 }
 
 input:focus {
@@ -97,7 +99,7 @@ input:focus {
     width: 90%;
     height: 50%;
     top: 2rem;  
-    border: 4px solid var(--border-color);
+    /* border: 4px solid var(--border-color); */
 }
 
 
@@ -119,6 +121,8 @@ input:focus {
 }
 
 #university-title {
+    display: flex;
+    justify-content: center;
     margin: auto;
     margin-top: 3rem;
     padding-left: 2rem;
@@ -128,6 +132,7 @@ input:focus {
     width: 70%;
     height: 50%;
     color: var(--text-color);
+    font-weight: bold;
 }
 
 #college-info-description {
@@ -210,7 +215,7 @@ input:focus {
     width: 70vw;
     height: 50%;
     color: var(--text-color);
-    background: var(--background-color);
+    background: var(--site-card-color);
 }
 
 .ranking-number {
@@ -293,4 +298,12 @@ input:focus {
 
 .txt-container p {
     font-size: 2vw;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
 }
