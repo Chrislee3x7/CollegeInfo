@@ -27,15 +27,36 @@ var all_data = [];
 const invocation = new XMLHttpRequest();
 const url = 'rur.tsv';
 
+
 $.ajax({
-    url: 'rur.tsv',
+    url: 'comprehensive.tsv',
     dataType: 'text',
-}).done(fetchData);
+}).done(fetchData_from_comprehensive);
+
 /*
     @parameter data: csv file
 */
-function fetchData(data) {
-    console.log("Fetching data successful");
+function fetchData_from_comprehensive(data) {
+    var allRows = data.split(/\r?\n|\r/);
+    for (var i = 0; i < allRows.length; ++i) {
+        if (i == 0) continue;
+        var row = allRows[i].split('\t');
+        universities.push(row[0]);
+        all_data.push(row);
+    }
+    universities.sort();
+    universities = universities.join('\t');
+    all_data = all_data.join('\n');
+}
+/*
+$.ajax({
+    url: 'rur.tsv',
+    dataType: 'text',
+}).done(fetchData_from_rur);
+
+    @parameter data: csv file
+
+function fetchData_from_rur(data) {
     var allRows = data.split(/\r?\n|\r/);
     for (var i = 0; i < allRows.length; ++i) {
         if (i == 0) continue;
@@ -47,6 +68,7 @@ function fetchData(data) {
     universities = universities.join('\t');
     all_data = all_data.join('\n');
 }
+*/
 
 
 /*

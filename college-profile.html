@@ -2,6 +2,8 @@
 <html>
 <head>
 	<title>College Info - Purdue University</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 	<link rel="stylesheet" href="styles.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
@@ -14,27 +16,45 @@
 		<input id="search_uni" type="text" name="searched_uni" placeholder="Search...">
 	</div>
 	<h1 id="university-title">Some University</h1>
-	<div id="site-card" class="myDiv">
+	<div id="RUR-card" class="myDiv site-card">
   		<h3><a href="https://roundranking.com/ranking/world-university-rankings.html?year=2020#world-2021" target="_blank">Round University Ranking</a></h3>
   		<p id="RUR">This is some text in a div element.</p>
 	</div>
-	<div id="site-card" class="myDiv"> 
-  		<h3>CollegeVine</h3>
-  		<p>This is some text in a div element.</p>
+
+	<div id="arwu-card" class="mb-3 card site-card" style="max-width: 540px;">
+		<div class="row">
+			<div class="col-md-4">
+				<img src="arwu_mini_logo.png" class="img-fluid rounded-start">
+			</div>
+			<div class="col-md-8">
+				<div class="card-body">
+					<h5 class="card-title">Academic Ranking of World University</h5>
+					<p id="arwu" class="card-text">Not Applicable</p>
+				</div>
+			</div>
+		</div>
 	</div>
-	<div id="site-card" class="myDiv">
-  		<h3>Niche</h3>
-  		<p>This is some text in a div element.</p>
+	<!-- <div id="arwu-card" class="myDiv site-card">
+		<img src="arwu_mini_logo.png" style="width: 2rem; height: 2rem; display: flex;"> 
+  		<h3><a href="https://www.shanghairanking.com/rankings/arwu/2021" target="_blank">Academic Ranking of World Universities</a></h3>
+  		<p id="arwu">This is some text in a div element.</p>
+	</div> -->
+
+
+	<div id="qs-card" class="myDiv site-card">
+		<img src="arwu_mini_logo.png" class="img-fluid" style="max-width: 540px;">
+  		<h3><a href="https://www.topuniversities.com/university-rankings/world-university-rankings/2020" target="_blank">QS World University Ranking</a></h3>
+  		<p id="qs">This is some text in a div element.</p>
 	</div>
-	<div id="site-card" class="myDiv">
-  		<h3>Niche</h3>
-  		<p>This is some text in a div element.</p>
+	<div id="the-card" class="myDiv site-card">
+  		<h3><a href="https://www.timeshighereducation.com/world-university-rankings/2020/reputation-ranking#!/page/0/length/25/sort_by/rank/sort_order/asc/cols/stats" target="_blank">Times Higher Education University Ranking</a></h3>
+  		<p id="the">This is some text in a div element.</p>
 	</div>
-	<div id="site-card" class="myDiv">
-  		<h3>Niche</h3>
-  		<p>This is some text in a div element.</p>
+	<div id="artu-card" class="myDiv site-card">
+  		<h3><a href="http://research.unsw.edu.au/artu/" target="_blank">Aggregate Ranking of Top Universities</a></h3>
+  		<p id="artu">This is some text in a div element.</p>
 	</div>
-	<div id="site-card" class="myDiv">
+	<div id="niche-card" class="myDiv site-card">
   		<h3>Niche</h3>
   		<p>This is some text in a div element.</p>
 	</div>

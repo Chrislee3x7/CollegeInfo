@@ -24,21 +24,37 @@ window.onload = function() {
     // Look for the ranking
     for (var i = 0; i < all_data.length; ++i) {
         var currRow = all_data[i];
-        var index = currRow.indexOf(',');
-        var currName = currRow.substr(index + 1, retrieved_name.length);
+        var index = currRow.indexOf(',', retrieved_name.length + 1);
+        var currName = currRow.substr(0, retrieved_name.length);
         //console.log(currRow[1]);
         if (currName == retrieved_name) {
             console.log("This was true");
-            const rur = document.getElementById("RUR");
-            rur.innerHTML = "<strong>Global Ranking:</strong> " + currRow.substr(0, index);
-            
-            while (index < currRow.length && (currRow.charAt(index) < '0' || currRow.charAt(index) > '9')) {
-                index++;
-            }
-            
-            const score = currRow.substr(index, currRow.indexOf(',', index) - index);
-            rur.innerHTML += "<br><strong> Round University Ranking Score: </strong>"
-            rur.innerHTML += score + " / 100.00"; 
+
+            const arwu = document.getElementById("arwu");
+            const arwu_card = document.getElementById("arwu-card");
+            arwu_card.style.display = "flex";
+            var nextIndex = currRow.indexOf(',', index + 1);
+            arwu.innerHTML = "<strong>Global Ranking:</strong> " + currRow.substr(index + 1, nextIndex-index-1);
+
+            const qs = document.getElementById("qs");
+            const qs_card = document.getElementById("qs-card");
+            qs_card.style.display = "block";
+            index = nextIndex;
+            nextIndex = currRow.indexOf(',', index + 1);
+            qs.innerHTML = "<strong>Global Ranking:</strong> " + currRow.substr(index + 1, nextIndex-index-1);
+
+            const the = document.getElementById("the");
+            const the_card = document.getElementById("the-card");
+            the_card.style.display = "block";
+            index = nextIndex;
+            nextIndex = currRow.indexOf(',', index + 1);
+            the.innerHTML = "<strong>Global Ranking:</strong> " + currRow.substr(index + 1, nextIndex-index-1);
+
+            const artu = document.getElementById("artu");
+            const artu_card = document.getElementById("artu-card");
+            artu_card.style.display = "block";
+            index = nextIndex;
+            artu.innerHTML = "<strong>Global Ranking:</strong> " + currRow.substr(index + 1);
         }
     }
     
