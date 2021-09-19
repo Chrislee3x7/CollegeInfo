@@ -271,3 +271,26 @@ input:focus {
         margin-top: 2rem;
     }
 }
+
+.img-txt-container {
+    display: flex;
+    margin-top: 5rem;
+    margin-left: 1ww;
+    margin-right: 1ww;
+}
+
+.txt-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2rem;
+}
+
+.txt-container h3 {
+    font-weight: bold;
+    font-size: 4vw;
+}
+
+.txt-container p {
+    font-size: 2vw;
+}
