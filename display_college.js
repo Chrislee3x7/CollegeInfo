@@ -88,7 +88,7 @@ window.onload = function() {
             const rur_card = document.getElementById("rur-card");
             const rur_style = getComputedStyle(rur_card);
             index = nextIndex;
-            if (currRow-index-1 > 0 && rur_style.display == "none") {
+            if (currRow.length-index-1 > 0 && rur_style.display == "none") {
                 rur_card.style.display = "block";
                 rur.innerHTML = "<strong>#" + currRow.substr(index + 1) + "</strong> @" + rur.innerHTML;
             }
