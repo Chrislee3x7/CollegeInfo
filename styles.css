@@ -228,6 +228,10 @@ input:focus {
     background: var(--site-card-color);
 }
 
+.site-card a{
+    text-decoration: none;
+}
+
 .ranking-number {
     position: relative;
     font-size: 5vw;
