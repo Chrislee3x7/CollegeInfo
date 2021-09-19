@@ -1,5 +1,5 @@
 # College Info
-**If you wish to run the website, please run it on your local server!**
+**If you wish to run the website, please download the repository and run it on your local server!**
 
 Displays university rankings from various sources.
 The pages were built from scratch using html, with css, javascript, bootstrap. <br/>
