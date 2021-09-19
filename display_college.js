@@ -34,7 +34,7 @@ window.onload = function() {
             const arwu_card = document.getElementById("arwu-card");
             arwu_card.style.display = "flex";
             var nextIndex = currRow.indexOf(',', index + 1);
-            arwu.innerHTML = "<strong>Global Ranking:</strong> " + currRow.substr(index + 1, nextIndex-index-1);
+            arwu.innerHTML = "<strong>#" + currRow.substr(index + 1, nextIndex-index-1) + "</strong>";
 
             const qs = document.getElementById("qs");
             const qs_card = document.getElementById("qs-card");
