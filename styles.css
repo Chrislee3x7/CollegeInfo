@@ -201,12 +201,12 @@ input:focus {
     display: none;
     margin: auto;
     box-shadow: 5px 5px 5px var(--shadow);
-    margin-top: 0.5vw;
+    margin-top: 1rem;
     border-radius: 0.5vw;
     padding-left: 1vw;
     padding-right: 1vw;
-    padding-top: 0.5vw;
-    padding-bottom: 0.5vw;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     width: 70vw;
     height: 50%;
     color: var(--text-color);
@@ -216,14 +216,20 @@ input:focus {
 .ranking-number {
     position: relative;
     font-size: 5vw;
-    top: 0.1vw;
+    top: 0.5rem;
 }
 
 .ranking-title {
     position: relative;
-    top: 1vw;
+    top: 2rem;
     left: -2vw;
     font-size: 2vw;
     margin-left: auto;
     margin-right: auto;
+}
+
+.card-img {
+    display: flex;
+    width: 7vw;
+    height: auto;
 }

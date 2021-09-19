@@ -34,27 +34,27 @@ window.onload = function() {
             const arwu_card = document.getElementById("arwu-card");
             arwu_card.style.display = "flex";
             var nextIndex = currRow.indexOf(',', index + 1);
-            arwu.innerHTML = "<strong>#" + currRow.substr(index + 1, nextIndex-index-1) + "</strong>";
+            arwu.innerHTML = "<strong>#" + currRow.substr(index + 1, nextIndex-index-1) + "</strong> @" + arwu.innerHTML;
 
             const qs = document.getElementById("qs");
             const qs_card = document.getElementById("qs-card");
             qs_card.style.display = "block";
             index = nextIndex;
             nextIndex = currRow.indexOf(',', index + 1);
-            qs.innerHTML = "<strong>Global Ranking:</strong> " + currRow.substr(index + 1, nextIndex-index-1);
+            qs.innerHTML = "<strong>#" + currRow.substr(index + 1, nextIndex-index-1) + "</strong> @" + qs.innerHTML;
 
             const the = document.getElementById("the");
             const the_card = document.getElementById("the-card");
             the_card.style.display = "block";
             index = nextIndex;
             nextIndex = currRow.indexOf(',', index + 1);
-            the.innerHTML = "<strong>Global Ranking:</strong> " + currRow.substr(index + 1, nextIndex-index-1);
+            the.innerHTML = "<strong>#" + currRow.substr(index + 1, nextIndex-index-1) + "</strong> @" + the.innerHTML;
 
             const artu = document.getElementById("artu");
             const artu_card = document.getElementById("artu-card");
             artu_card.style.display = "block";
             index = nextIndex;
-            artu.innerHTML = "<strong>Global Ranking:</strong> " + currRow.substr(index + 1);
+            artu.innerHTML = "<strong>#" + currRow.substr(index + 1) + "</strong> @" + artu.innerHTML;
         }
     }
     
