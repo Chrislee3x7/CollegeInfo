@@ -3,7 +3,7 @@ Displays university rankings from various sources.
 The pages were built from scratch using html, with css, javascript, bootstrap.
 
 ## Data
-We used python webscraping to get data from various sources such as The Higher Education and QS Universities.
+We used python webscraping to get data from various sources such as The Higher Education and QS Universities. (The files can be seen in "university_ranking" directory) <br />
 Using python, we converted and combined the data into a csv file.
 App.js, then, reads the csv file and loads information to an array.
 App.js passes the data to Display_data.js via sessionItems. 
