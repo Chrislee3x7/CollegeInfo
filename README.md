@@ -1,4 +1,4 @@
-# CollegeInfo
+# College Info
 Displays university rankings from various sources.
 
 ## Data
