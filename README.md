@@ -1,6 +1,10 @@
 # College Info
 Displays university rankings from various sources.
-The pages were built from scratch using html, with css, javascript, bootstrap.
+The pages were built from scratch using html, with css, javascript, bootstrap. <br/>
+
+Search a university name in the search bar. Click "Enter" or click a university name that appears in the autocomplete list.<br />
+If the name is found, then it display the rankings of the university. Otherwise, an error page is displayed. <br />
+There is also "About us" page and footer which leads to some of the websites we used.
 
 ## Data
 We used python webscraping to get data from various sources such as The Higher Education and QS Universities. (The files can be seen in "university_ranking" directory) <br />
