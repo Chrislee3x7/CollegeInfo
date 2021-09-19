@@ -193,9 +193,10 @@ input:focus {
 
 
 .btn-primary {
-<<<<<<< HEAD
     position: relative;
-    left: 1.2rem;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .site-card {
@@ -225,9 +226,4 @@ input:focus {
     top: 1.5rem;
     left: -3rem;
     font-size: 2.5rem;
-=======
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
->>>>>>> 6ce30d0c4132b70edee2679fc430bae5d44ea894
 }
