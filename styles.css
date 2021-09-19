@@ -194,22 +194,20 @@ input:focus {
 
 .btn-primary {
     position: relative;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    left: 1.2rem;
 }
 
 .site-card {
     display: none;
     margin: auto;
     box-shadow: 5px 5px 5px var(--shadow);
-    margin-top: 1rem;
-    border-radius: 1rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    width: 70%;
+    margin-top: 0.5vw;
+    border-radius: 0.5vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    width: 70vw;
     height: 50%;
     color: var(--text-color);
     background: var(--background-color);
@@ -217,13 +215,15 @@ input:focus {
 
 .ranking-number {
     position: relative;
-    font-size: 6rem;
-    top: 0.5rem;
+    font-size: 5vw;
+    top: 0.1vw;
 }
 
 .ranking-title {
     position: relative;
-    top: 1.5rem;
-    left: -3rem;
-    font-size: 2.5rem;
+    top: 1vw;
+    left: -2vw;
+    font-size: 2vw;
+    margin-left: auto;
+    margin-right: auto;
 }
