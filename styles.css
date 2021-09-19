@@ -16,7 +16,7 @@ body {
     box-shadow: 5px 5px 5px var(--shadow);
     background-color: var(--background-color);
     border-radius: 0.5rem;
-    padding: 1rem 1rem; 
+    padding: 1rem 1rem;
 }
 
 .topnav a {
@@ -38,10 +38,10 @@ input {
     display: block;
     margin: auto;
     border-radius: 1rem;
-    padding-left: 1rem; 
-    padding-right: 7rem; 
-    padding-top: 1rem; 
-    padding-bottom: 1rem; 
+    padding-left: 1rem;
+    padding-right: 7rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     /*width: 90%;*/
     height: 50%;
     font-size: 20px;
@@ -49,7 +49,7 @@ input {
     border-radius: 10px;
 }
 
-input:focus { 
+input:focus {
     outline: none;
 }
 
@@ -78,7 +78,7 @@ input:focus {
 
 .autocomplete-items div {
     z-index: 2;
-    padding: 10px 10px; 
+    padding: 10px 10px;
     cursor: pointer;
     background-color: white;
     border-bottom: 1px solid;
@@ -106,10 +106,10 @@ input:focus {
     box-shadow: 5px 5px 5px var(--shadow);
     margin-top: 1rem;
     border-radius: 1rem;
-    padding-left: 2rem; 
-    padding-right: 2rem; 
-    padding-top: 1rem; 
-    padding-bottom: 1rem; 
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     width: 70%;
     height: 50%;
     color: var(--text-color);
@@ -135,10 +135,10 @@ input:focus {
 #university-title {
     margin: auto;
     margin-top: 3rem;
-    padding-left: 2rem; 
-    padding-right: 2rem; 
-    padding-top: 1rem; 
-    padding-bottom: 1rem; 
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     width: 70%;
     height: 50%;
     color: var(--text-color);
