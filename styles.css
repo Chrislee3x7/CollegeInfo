@@ -28,20 +28,20 @@ body::after {
     padding: 1rem 1rem;
 }
 
-.topnav a {
-    display: flex;
+/*.topnav a {
+    display: inline-block;
     padding: 10px;
     align-items:center;
     font-size: 17px;
     font-weight: 900;
     float: left;
     color: var(--text-color);
-}
+}*/
 
-a {
+/*a {
     text-decoration: none;
     font-family: Verdana, sans-serif;
-}
+}*/
 
 input {
     display: block;
@@ -289,9 +289,9 @@ input:focus {
 
 .img-txt-container {
     display: flex;
-    margin-top: 5rem;
-    margin-left: 1ww;
-    margin-right: 1ww;
+    margin-top: 8rem;
+    margin-left: 6vw;
+    margin-right: 6vw;
 }
 
 .txt-container {
