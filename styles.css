@@ -201,7 +201,7 @@ input:focus {
     display: none;
     margin: auto;
     box-shadow: 5px 5px 5px var(--shadow);
-    margin-top: 1rem;
+    margin-top: 2rem;
     border-radius: 0.5vw;
     padding-left: 1vw;
     padding-right: 1vw;
@@ -232,4 +232,42 @@ input:focus {
     display: flex;
     width: 7vw;
     height: auto;
+}
+
+#arwu-card {
+    animation-duration: 1s;
+    animation-name: slidein-arwu;
+}
+
+@keyframes slidein-arwu {
+    from {
+        margin-top: 0rem;
+    }
+    to {
+        margin-top: 2rem;
+    }
+}
+
+#qs-card {
+    animation-duration: 2s;
+    animation-name: slidein;
+}
+
+#the-card {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+#artu-card {
+    animation-duration: 4s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-top: -6rem;
+    }
+    to {
+        margin-top: 2rem;
+    }
 }
