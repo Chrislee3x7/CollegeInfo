@@ -28,7 +28,7 @@ var all_data = [];
 
 
 $.ajax({
-    url: 'test_data.tsv',
+    url: 'final_data.tsv',
     dataType: 'text',
 }).done(fetchData_from_comprehensive);
 
