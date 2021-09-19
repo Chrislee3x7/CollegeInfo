@@ -332,12 +332,12 @@ input:focus {
 }
 
 #sci-card {
-    animation-duration: 5s;
+    animation-duration: 2s;
     animation-name: slidein;
 }
 
 #rur-card {
-    animation-duration: 6s;
+    animation-duration: 2s;
     animation-name: slidein;
 }
 
